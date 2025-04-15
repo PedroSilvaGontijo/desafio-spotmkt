@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafio Front-End Júnior
 
-## Getting Started
+## Objetivo
 
-First, run the development server:
+Criar uma pequena aplicação com duas telas (login e painel principal) utilizando
+React ou Next.js. O foco principal deve ser em uma boa experiência do usuário (UX),
+com interface visual agradável, responsiva e funcional.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias e Bibliotecas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O projeto utiliza as seguintes tecnologias e bibliotecas:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** 
+  - **Next.js**
+- **Bibliotecas:** 
+  - **TailwindCSS**
+  - **Radix UI** 
+- **Gerenciamento de estado:** 
+  - **Context API** do React.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Design e Usabilidade
 
-## Learn More
+A aplicação foi projetada com foco em uma boa experiência do usuário (UX), com as seguintes definições:
 
-To learn more about Next.js, take a look at the following resources:
+- **Layout:**
+  - **Tela de login:** Uma tela simples com credenciais fixas para simulação (usuário: `spotmkt`, senha: `123`), mockadas em JSON.
+  - **Dashboard:** Exibe informações fictícias sobre métricas, insights e interações. Não há funcionalidades reais, mas a interface é intuitiva e bem estruturada.
+  - **Simulação de IA:** No dashboard, foi incluída uma simulação de IA para gerar insights de maneira criativa e destacada.
+- **Responsividade:**
+  - A interface é adaptável para dispositivos móveis, tablets, notebooks e telas ultra-wide.
+  - O header com o logo e a saudação "Olá, {usuário}" no topo
+- **Ações de Login/Logout:** 
+  - Foi implementado um botão de logout, com comportamento dinâmico conforme o estado de autenticação do usuário.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Autenticação e Fluxo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Embora a autenticação real não seja necessária, foi implementado um middleware simples para simular a autenticação. O processo de autenticação utiliza as credenciais fixas (`usuário: spotmkt`, `senha: 123`).
 
-## Deploy on Vercel
+## Manejo de Dados Fictícios
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Como os dados são fictícios, eles são estruturados em um objeto JSON, simulando a resposta de uma API real.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Métricas e Dados
+
+Apesar de não existirem métricas reais, o dashboard exibe métricas e dados fictícios de maneira criativa e impactante, com a proposta de "Resumo de métricas de campanhas", "Calendário de ações", etc.
+
+## Notificações e Histórico de Dados
+
+- **Notificações:** Foram simuladas notificações que alertam o usuário sobre novas atualizações ou ações importantes.
+- **Histórico de Dados:** Foi exibido um histórico simulado de interações anteriores, permitindo ao usuário acompanhar o que aconteceu anteriormente e qual o status atual.
+
+## Estrutura do Código e Organização
+
+O código foi estruturado para ser limpo, bem organizado e fácil de entender. As boas práticas de desenvolvimento foram seguidas, com a seguinte organização:
+
+## Desempenho e Interatividade
+
+A aplicação foi otimizada para ser rápida e leve, aproveitando ao máximo a renderização eficiente do Next.js. A interface é interativa, visualmente atrativa e focada na usabilidade, mesmo sem funcionalidades reais.
+
+## Como Rodar a Aplicação
+
+Siga os passos abaixo para clonar e rodar a aplicação localmente:
+
+1. **Clone o Repositório**  
+  Abra o terminal e execute o comando:
+  ```bash
+  git clone https://github.com/PedroSilvaGontijo/desafio-spotmkt.git
+  ```
+
+2. **Acesse o Diretório do Projeto**  
+  Navegue até o diretório clonado:
+  ```bash
+  cd desafio-spot-mkt
+  ```
+
+3. **Instale as Dependências**  
+  Certifique-se de que você tem o Node.js e o npm instalados. Em seguida, instale as dependências do projeto:
+  ```bash
+  npm install
+  ```
+
+4. **Inicie o Servidor de Desenvolvimento**  
+  Após a instalação das dependências, inicie o servidor:
+  ```bash
+  npm run dev
+  ```
+
+5. **Acesse a Aplicação**  
+  Abra o navegador e acesse:
+  ```
+  http://localhost:3000
+  ```
+
+6. **Credenciais de Login**  
+  Use as credenciais fixas para acessar a aplicação:
+  - Usuário: `spotmkt`
+  - Senha: `123`
+
+Pronto! Agora você pode explorar a aplicação localmente.
