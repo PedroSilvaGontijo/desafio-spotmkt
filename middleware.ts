@@ -2,10 +2,10 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export function middleware(request: NextRequest) {
   const isAuthenticated = request.cookies.get('autenticado')?.value === 'true'
-  const isLoginPage = request.nextUrl.pathname === '/login'
+  const isLoginPage = request.nextUrl.pathname === '/'
 
   if (!isAuthenticated && !isLoginPage) {
-    return NextResponse.redirect(new URL('/login', request.url))
+    return NextResponse.redirect(new URL('/', request.url))
   }
 
   if (isAuthenticated && isLoginPage) {
@@ -16,5 +16,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/:path*'], 
+  matcher: ['/:path*']
 }

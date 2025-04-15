@@ -38,7 +38,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     document.cookie = 'autenticado=; Max-Age=0; path=/'
     document.cookie = 'usuario=; Max-Age=0; path=/'
     setIsAuthenticated(false)
-    router.push('/login')
+    router.push('/')
   }
 
   return (
