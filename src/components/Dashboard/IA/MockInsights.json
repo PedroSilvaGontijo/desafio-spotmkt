@@ -1,0 +1,18 @@
+[
+    {
+      "titulo": "Campanhas com melhor desempenho",
+      "mensagem": "A campanha 'Verão Digital' teve 36% mais conversões do que a média!",
+      "tom": "positivo"
+    },
+    {
+      "titulo": "Atenção: queda de engajamento",
+      "mensagem": "O engajamento caiu 12% em comparação à semana passada.",
+      "tom": "alerta"
+    },
+    {
+      "titulo": "Sugestão Inteligente",
+      "mensagem": "Considere segmentar o público com base em interesses para melhorar o CTR.",
+      "tom": "neutro"
+    }
+  ]
+  
