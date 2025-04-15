@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Campanhas Ativas",
+    "valor": "12",
+    "cor": "bg-orange-100",
+    "texto": "text-orange-700",
+    "icone": "SpeakerLoudIcon"
+  },
+  {
+    "label": "Cliques",
+    "valor": "8.932",
+    "cor": "bg-blue-100",
+    "texto": "text-blue-700",
+    "icone": "CursorArrowIcon"
+  },
+  {
+    "label": "Conversões",
+    "valor": "1.245",
+    "cor": "bg-green-100",
+    "texto": "text-green-700",
+    "icone": "CheckCircledIcon"
+  },
+  {
+    "label": "Retorno Estimado",
+    "valor": "R$ 14.300",
+    "cor": "bg-purple-100",
+    "texto": "text-purple-700",
+    "icone": "BarChartIcon"
+  }
+]
