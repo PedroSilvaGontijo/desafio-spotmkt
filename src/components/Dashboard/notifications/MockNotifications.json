@@ -1,0 +1,15 @@
+[
+    {
+      "mensagem": "Nova campanha 'Outono 2024' iniciada com sucesso!",
+      "tipo": "sucesso"
+    },
+    {
+      "mensagem": "O orçamento da campanha 'Back Friday' está abaixo do esperado.",
+      "tipo": "alerta"
+    },
+    {
+      "mensagem": "Relatório semanal disponível para visualização.",
+      "tipo": "info"
+    }
+  ]
+  
